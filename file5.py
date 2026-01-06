@@ -1,5 +1,3 @@
-# Supervised ML - Linear Regression (Study Hours vs Exam Score)
-
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -38,3 +36,4 @@ y_pred = model.predict(X_test)
 print("Predicted Scores:", y_pred[:5])
 print("Actual Scores   :", y_test.values[:5])
 print("MSE:", mean_squared_error(y_test, y_pred))
+
