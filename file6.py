@@ -12,7 +12,6 @@ X = np.array([
     [25, 50]
 ])
 
-# Output: 1 = Fan ON, 0 = Fan OFF
 y = np.array([1, 1, 0, 0])
 
 # Model
@@ -27,3 +26,4 @@ model.fit(X, y, epochs=50, verbose=0)
 # Edge prediction
 test = np.array([[33, 65]])
 print("Fan ON probability:", model.predict(test))
+
