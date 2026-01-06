@@ -34,3 +34,4 @@ plt.xlabel("Maths Marks")
 plt.ylabel("Science Marks")
 plt.title("Student Performance Clustering")
 plt.show()
+
