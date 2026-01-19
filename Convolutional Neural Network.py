@@ -43,3 +43,4 @@ model.fit(X_train, y_train, epochs=5, batch_size=64, verbose=1)
 loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 
 print("Test Accuracy:", accuracy)
+
