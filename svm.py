@@ -19,4 +19,5 @@ print(X_test)
 from sklearn.svm import SVC
 classifier = SVC(kernel = 'linear', random_state = 0)
 classifier.fit(X_train, y_train)
+
 print(classifier.predict(sc.transform([[30,87000]])))
